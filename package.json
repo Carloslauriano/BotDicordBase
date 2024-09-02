@@ -16,5 +16,6 @@
   "dependencies": {
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
