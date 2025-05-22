@@ -1,8 +1,17 @@
-import { Events } from "discord.js";
+// ⚠️ DO NOT REMOVE THIS FILE ⚠️
+// This file is essential for the Discord bot's command system to function.
+// Deleting it will break the command registration and execution process.
+
+// ⚠️ NÃO REMOVA ESTE ARQUIVO ⚠️
+// Este arquivo é essencial para o bot do Discord funcionar corretamente.
+// Ele é responsável por executar os comandos do bot.
+// Remover este arquivo fará com que o sistema de comandos pare de funcionar.
+
+mport { Events } from "discord.js";
 
 export const name = Events.InteractionCreate
 
-export const once = true
+export const once = false
 
 export const execute = async (interaction: any) => {
   if (!interaction.isChatInputCommand()) return;
